@@ -6,7 +6,7 @@
 	background: url("/_img/bedroom-window.jpg") no-repeat center top transparent;
 	background-size: cover;
 	background-position: left;
-	height: 1090px;
+	height: 2400px;
 	padding: 40px 0 0 50px;
 	h1 {
 		font: 110px "bebas_neueregular", arial, helvetica;
@@ -45,7 +45,7 @@ h3 {
 	padding: 20px;
 }
 
-#filters {
+.content #filters {
 	border-bottom: 3px solid #f722d6;
 	li a {
 		font: 30px "bebas_neueregular", arial, helvetica;
@@ -53,6 +53,14 @@ h3 {
 		width: auto;
 		margin-right: 2%;
 		float: left;
+		opacity: .5;
+		&.selected {
+			opacity: 1;
+		}
+		&:hover {
+			opacity: 1;
+			color: #f722d6;
+		}
 	}
 }
 
