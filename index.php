@@ -48,15 +48,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <li><a href="#filter" data-option-value=".build">Build</a></li>
         <li><a href="#filter" data-option-value=".design">Design</a></li>
         <li><a href="#filter" data-option-value=".maintenance">Maintenance</a></li>
-        <li><a href="#filter" data-option-value=".development">In Progress</a></li>
-        <li><a href="#filter" data-option-value=".production">In Production</a></li>
       </ul>
 
   </div> <!-- #options -->
 
  	<div id="container" class="clearfix">
     
-	    <a class="element-item design development">
+	    <a class="element-item design">
 	    	<img src="/_img/angry-eagle-lodge-and-outfitters.jpg" alt="Angry Eagle Lodge & Outfitters website">
 	    </a><!--element-->
 
@@ -68,17 +66,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/meet-idesign.jpg" alt="iDesign, Inc. website">
 	    </a><!--element-->
 
-	    <a href="http://www.k-laserusa.com.php54-1.dfw1-2.websitetestlink.com/" target="_blank" class="element-item build fluid development">
-	    	<img src="/_img/k-laser.jpg" alt="K-Laser website">
-	    </a><!--element-->
-
-	    <a href="http://www.connico.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" class="element-item build development">
+	    <a href="http://www.connico.com/" target="_blank" class="element-item build production">
 	    	<img src="/_img/connico.jpg" alt="Connico website">
 	    </a><!--element-->
 
-	    <a href="http://www.tsumensbasketball.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" class="element-item build fluid development">
+	    <!--
+<a href="http://www.tsumensbasketball.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" class="element-item build fluid development">
 	    	<img src="/_img/tsu-basketball.jpg" alt="TSU Men's Basketball website">
-	    </a><!--element-->
+	    </a>
+--><!--element-->
 
 	    <a href="http://www.greystonebd.com/" target="_blank" class="element-item fluid build production">
 	    	<img src="/_img/greystone.jpg" alt="Greystone website">
@@ -96,9 +92,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/shared-hospital.jpg" alt="Shared Hospital Services website">
 	    </a><!--element-->	    
 
-	    <a href="http://www.specialolympicstn-test.com.php53-10.dfw1-1.websitetestlink.com/" target="_blank" class="element-item build fluid development">
+	    <!--
+<a href="http://www.specialolympicstn-test.com.php53-10.dfw1-1.websitetestlink.com/" target="_blank" class="element-item build fluid development">
 	    	<img src="/_img/special-olympics.jpg" alt="Special Olympics TN website">
-	    </a><!--element-->	    
+	    </a>
+--><!--element-->	    
 
 	    <a href="http://www.tnrmt.com/" target="_blank" class="element-item build fluid production">
 	    	<img src="/_img/tennessee-risk-management-trust.jpg" alt="Tennessee Risk Management Trust website">
@@ -144,9 +142,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/covenant-capital-management.jpg" alt="Covenant Capital Management website">
 	    </a><!--element-->
 
-	    <a href="http://www.greenapplestrategy-test.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" class="element-item fluid build development">
+	    <!--
+<a href="http://www.greenapplestrategy-test.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" class="element-item fluid build development">
 	    	<img src="/_img/green-apple-strategy.jpg" alt="Green Apple Strategy website">
-	    </a><!--element-->
+	    </a>
+--><!--element-->
 
 	    <a href="http://www.hearingplanet.com/" target="_blank" class="element-item maintenance breakpoint production">
 	    	<img src="/_img/hearing-planet.jpg" alt="Hearing Planet website">
