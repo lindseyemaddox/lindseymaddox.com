@@ -2,19 +2,8 @@
 require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head
 ?>    		
     		
-	<title>Lindsey Maddox</title>
+	<title>Lindsey Maddox | Web Developer</title>
 	<meta name="description" content="web developer, nashville, creative, front end, html, css, web design, web development">
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-55633656-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </head>
 
@@ -22,18 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head
 
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and navigation
-?>    		
-
-
-<div class="content">
-	<div itemscope itemtype="http://schema.org/Person">
-
-		<h1><span itemprop="name">Lindsey Maddox</span></h1>
-		<h2><span itemprop="jobTitle">web developer</span></h2>
-		<h2><span itemprop="addressLocality">nashville</span>, <span itemprop="addressRegion">tn</span></h2>
-		<a href="mailto:dev@lindseymaddox.com" itemprop="email">contact</a>
-
-	</div>
+?>
 
 <section id="portfolio">
     
