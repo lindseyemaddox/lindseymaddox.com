@@ -7,6 +7,7 @@
 
 			$('.fancybox-buttons').fancybox({
 				closeBtn  : true,
+				loop      : false,
 
 				helpers : {
 					title : {

@@ -11,10 +11,15 @@
 }
 
 	h1 {
-		font: 110px "bebas_neueregular", arial, helvetica;
-		text-transform: uppercase;
-		color: #f722d6;
-		text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+		a {
+			font: 110px "bebas_neueregular", arial, helvetica;
+			text-transform: uppercase;
+			color: #f722d6;
+			text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+			&:hover {
+				text-shadow: 4px 3px 0px #F722D6, 9px 8px 0px rgba(0,0,0,0.15);				
+			}
+		}
 	}
 	h2 {
 		font: 113px/78px "ostrich_sanscondensed_light", arial, helvetica;
@@ -25,6 +30,9 @@
 		font: 60px "ostrich_sansmedium", arial, helvetica;
 		color: #f722d6;
 		line-height: 110px;
+		&.bebas {
+			font: 50px/90px "bebas_neueregular", arial, helvetica;
+		}
 	}
 	a:hover {
 		color: #fff;
@@ -77,4 +85,10 @@ h3 {
 			}
 		}
 	}
+}
+
+span.bebas {
+	font: 50px "bebas_neueregular", arial, helvetica;
+	color: #F722D6;	
+	padding: 0 10px;
 }
