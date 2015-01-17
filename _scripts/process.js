@@ -1,7 +1,5 @@
 $(document).ready(function(){
-	var width 		= $('.container').width(),
-		bubble 		= $('.bubbles li'),
-		bubPos 		= bubble.position().left;
+	var width 		= $('.container').width();
 
 	$( ".selector" ).slider({
 		max: width,
@@ -9,24 +7,20 @@ $(document).ready(function(){
 
 			var slideVal 	= $(this).slider('values', 0);
 			$('.bubbles li').each(function(i){
-				if($(this).position().left <= slideVal){
-					console.log(this);
+				if($(this).position().left-50 <= slideVal){
 					$(this).children('div').addClass('pop');
-					setTimeout(function(){
-						$('.bubbles li div span').css({
-							opacity:'1',
-							top: '100px'
-						})
-					},250);
-				}else {
-						$('.bubbles li div span').css({
-							opacity:'1',
-							top: '100px'
-						})
+				} else {
 					$(this).children('div').removeClass('pop');
 				}
 			});
 
+			var slideVal 	= $(this).slider('values', 0);
+			$('.bubbles li').each(function(i){
+				if($(this).position().left+25 <= slideVal){
+					$(this).children('div').removeClass('pop');
+				} else {
+				}
+			});
 		}
 	});
 });

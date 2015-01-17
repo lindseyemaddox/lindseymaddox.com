@@ -5,34 +5,125 @@
 	background-color: rgba(255, 255, 255, 0.8);
 	width: 100%;
 	padding: 20px;
+  #container {
+    margin: 80px 0 50px;
+    div.selector {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+	ul.bubbles {
+		margin: 0 5%;
+    li {
+    	width: 8.75%;
+    	height: 100px;
+    	border-radius: 100%;
+    	list-style-type: none;
+    	display: inline-block;
+    	position: relative;
+      &.one {
+        div {background: rgba(247, 34, 214, 0.3);
+          a {
+            top: 37px;
+          }
+        }
+      }
+      &.two {
+        div {background: rgba(247, 34, 214, 0.3);}
+      }
+      &.three {
+        div {background: rgba(247, 34, 214, 0.4);
+          a {
+            top: 37px;
+          }
+        }
+      }
+      &.four {
+        div {background: rgba(247, 34, 214, 0.4);
+          a {
+            top: 37px;
+          }
+        }
+      }
+      &.five {
+        div {background: rgba(247, 34, 214, 0.5);}
+      }
+      &.six {
+        div {background: rgba(247, 34, 214, 0.5);
+          a {
+            top: 37px;
+          }
+        }
+      }
+      &.seven {
+        div {background: rgba(247, 34, 214, 0.6);}
+      }
+      &.eight {
+        div {background: rgba(247, 34, 214, 0.6);}
+      }
+      &.nine {
+        div {background: rgba(247, 34, 214, 0.7);
+          a {
+            top: 37px;
+          }
+        }
+      }
+      &.ten {
+        div {background: rgba(247, 34, 214, 0.7);}
+      }
+      &.eleven {
+        div {background: rgba(247, 34, 214, 1);}
+      }
+      div {
+        position:absolute;
+        top:-25%;
+        left:-25%;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        transition: all .3s ease;
+        text-align: center;
+        &.pop {
+          background:rgba(34, 214, 247, 0.5);
+          transform: scale(2, 2);
+          z-index: 1;
+          a {
+            opacity: 1;
+          }
+        }
+        a {
+          opacity: .3;
+          position:relative;
+          font-family: 'bebas_neueregular', sans-serif;
+          font-size: 16px;
+          line-height: 12px;
+          top: 45px;
+          color: #000;
+          &:hover {
+            color: #fff;
+            .transition();
+          }
+        }
+      }
+    }
+  }
+}
 
-  li {
-  	width: 50px;
-  	height: 50px;
-  	border-radius: 100%;
-  	list-style-type: none;
-  	display: inline-block;
-  	position: relative;
+header.steps {
+  h3 {
+    font-size: 40px;
+    line-height: 40px;
   }
-  li div {
-  	position:absolute;
-  	top:-25%;
-  	left:-25%;
-	width: 50px;
-	height: 50px;
-  	border-radius: 100%;
-  	transition: all .3s ease;
+  h2 {
+    font-size: 70px;
+    line-height: 25px;
+    color: #000;
   }
-  li div span{
-  	opacity: 0;
-  	position:relative;
-  	font-family:;
-  }
-	li:nth-of-type(even) div{background: #6dc191;}
-	li:nth-of-type(odd) div{background: #4dc2cf;}
-
-li div.pop {
-  	background:rgba(231, 76, 60, 0.72);
-  	transform: scale(2, 2);
+}
+section#steps {
+  p {
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
   }
 }

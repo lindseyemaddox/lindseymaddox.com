@@ -3,7 +3,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head
 ?>    		
     		
 	<title>Lindsey Maddox | Web Developer</title>
-	<meta name="description" content="web developer, nashville, creative, front end, html, css, web design, web development">
+	<meta name="description" content="Lindsey Maddox is a creative website designer and website developer, building sites in HTML, CSS, JQuery, and PHP.">
 
 </head>
 
@@ -32,7 +32,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
  	<div id="container" class="clearfix">
     
-	    <a class="element-item design">
+	    <a href="http://www.knockoutfitness.net/" target="_blank" class="element-item design build fluid production">
+	    	<img src="/_img/knockout-fitness.jpg" alt="Knockout Fitness website">
+	    </a><!--element-->	    
+
+	    <a class="element-item design development">
 	    	<img src="/_img/angry-eagle-lodge-and-outfitters.jpg" alt="Angry Eagle Lodge & Outfitters website">
 	    </a><!--element-->
 
