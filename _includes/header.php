@@ -2,7 +2,13 @@
 
 <header>
 	
-	<div itemscope itemtype="http://schema.org/Person">
+	<div id="logo">
+		
+		<img src="/_img/logo.png" alt="Lindsey Maddox logo"/>	
+		
+	</div><!--logo-->
+	
+	<div id="title" itemscope itemtype="http://schema.org/Person">
 
 		<h1><a href="/"><span itemprop="name">Lindsey Maddox</span></a></h1>
 		<h2><span itemprop="jobTitle">Web Developer</span></h2>

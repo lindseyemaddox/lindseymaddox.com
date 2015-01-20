@@ -11,7 +11,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head
 <header class="steps">
   
     <h3>Step Three</h3>
-    <h2>Site Outline</h2>
+    <h2>Wireframes</h2>
 
 </header> <!--header-->
 

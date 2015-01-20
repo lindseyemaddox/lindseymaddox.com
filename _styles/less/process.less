@@ -5,6 +5,7 @@
 	background-color: rgba(255, 255, 255, 0.8);
 	width: 100%;
 	padding: 20px;
+	max-width: 1000px;
   #container {
     margin: 80px 0 50px;
     div.selector {
@@ -15,7 +16,7 @@
 	ul.bubbles {
 		margin: 0 5%;
     li {
-    	width: 8.75%;
+    	width: 10%;
     	height: 100px;
     	border-radius: 100%;
     	list-style-type: none;
@@ -56,7 +57,11 @@
         }
       }
       &.seven {
-        div {background: rgba(247, 34, 214, 0.6);}
+        div {background: rgba(247, 34, 214, 0.6);
+          a {
+            top: 37px;
+          }
+        }
       }
       &.eight {
         div {background: rgba(247, 34, 214, 0.6);}
@@ -89,16 +94,17 @@
           z-index: 1;
           a {
             opacity: 1;
+            color: #000;
           }
         }
         a {
           opacity: .3;
           position:relative;
           font-family: 'bebas_neueregular', sans-serif;
-          font-size: 16px;
+          font-size: 18px;
           line-height: 12px;
           top: 45px;
-          color: #000;
+          color: #fff;
           &:hover {
             color: #fff;
             .transition();
@@ -107,6 +113,11 @@
       }
     }
   }
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border: 1px solid #22d6ed!important;
 }
 
 header.steps {
