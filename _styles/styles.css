@@ -711,6 +711,137 @@ section#steps p {
 #contact div.form button:hover {
   opacity: 1;
 }
+#questionnaire {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 20px;
+  max-width: 800px;
+}
+#questionnaire div.form p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+#questionnaire div.form div {
+  display: inline-block;
+  vertical-align: top;
+}
+#questionnaire div.form div.right {
+  width: 40%;
+}
+#questionnaire div.form div.left {
+  margin-right: 9.5%;
+  width: 40%;
+}
+#questionnaire div.form div.three {
+  width: 30%;
+  margin-right: 3%;
+}
+#questionnaire div.form div.three textarea {
+  padding: 5px 5%;
+  height: 28px;
+}
+#questionnaire div.form label {
+  display: block;
+  margin-top: 20px;
+}
+#questionnaire div.form input {
+  margin-bottom: 20px;
+  width: 90%;
+  height: 40px;
+  padding: 0 5%;
+  font-size: 24px;
+  color: #3f3f3f;
+  border: none;
+  font-family: 'ostrich_sansmedium', sans-serif;
+}
+#questionnaire div.form textarea {
+  margin-bottom: 20px;
+  width: 90%;
+  height: 110px;
+  padding: 10px 5%;
+  font-size: 24px;
+  color: #3f3f3f;
+  border: none;
+  resize: none;
+  font-family: 'ostrich_sansmedium', sans-serif;
+}
+#questionnaire div.form button {
+  font-family: 'bebas_neueregular', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #fff;
+  background-color: #f722d6;
+  width: 100%;
+  border: none;
+  height: 40px;
+  opacity: .5;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+#questionnaire div.form button:hover {
+  opacity: 1;
+}
+div.inline-checks .squaredThree {
+  display: inline-block !important;
+  width: 40%;
+}
+/* .checkbox */
+.squaredThree {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  margin: 20px auto;
+  display: block!important;
+}
+.squaredThree.no-marb {
+  margin-bottom: 0;
+}
+.squaredThree label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 0!important;
+  top: 0;
+  left: 0;
+  text-indent: 30px;
+  white-space: nowrap;
+  background: -webkit-linear-gradient(top, #222222 0%, #45484d 100%);
+  background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+  border-radius: 4px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+}
+.squaredThree label:after {
+  content: '';
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border: 3px solid #fcfff4;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.squaredThree label:hover::after {
+  opacity: 0.3;
+}
+.squaredThree input[type=checkbox],
+.squaredThree input[type=radio] {
+  visibility: hidden;
+}
+.squaredThree input[type=checkbox]:checked + label:after,
+.squaredThree input[type=radio]:checked + label:after {
+  opacity: 1;
+}
+/* end .checkbox */
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
 .isotope-item {

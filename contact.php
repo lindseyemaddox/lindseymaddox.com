@@ -3,7 +3,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head
 ?>    		
     		
 	<title>Contact Lindsey Maddox | Web Developer</title>
-	<meta name="description" content="Use this form to contact Lindsey Maddox about a new sebsite!">
+	<meta name="description" content="Use this form to contact Lindsey Maddox about a new website!">
 
 	<script src="/_scripts/jquery.maskedinput.js"></script>
 
@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	        $phone = $_REQUEST['phone'] ;
 	        $desc = $_REQUEST['desc'] ;
 	        if (isset($_POST['submit'])) {
-	          $to = 'dev@lindseymaddox.com';
+	          $to = 'lindseyemaddox@gmail.com';
 	          $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
 	          $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
 	          $headers .= "MIME-Version: 1.0\r\n";
@@ -34,12 +34,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	          $message .= 'Name: '.$name.'<br>';
 	          $message .= 'Email: '.$email.'<br>';
 	          $message .= 'Phone: '.$phone.'<br>';
-	          $message .= 'How May I Help You: '.$desc.'<br>';
+	          $message .= 'Do you need a shiny new website? '.$desc.'<br>';
 	          $message .= '</body></html>';
-	          $subject = 'new form submission from lindseymaddox.com';
+	          $subject = 'someone needs a shiny new website';
 
 	    mail($to, $subject, $message, $headers);
-	    echo "<div style='width: 100%; padding: 60px 0 80px; color: #000; text-align: center; font-size: 36px;'><label> Thanks for hollering. I'll be in touch ASAP!</label></div>";
+	    echo "<div style='width: 100%; padding: 60px 0 80px; color: #000; text-align: center; font-size: 36px;'><label>Thanks for hollering. I'll be in touch ASAP!</label></div>";
 	  }
 	else
 	  { echo "
