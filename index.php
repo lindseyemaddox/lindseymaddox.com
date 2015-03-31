@@ -74,11 +74,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/shared-hospital.jpg" alt="Shared Hospital Services website">
 	    </a><!--element-->	    
 
-	    <!--
-<a href="http://www.specialolympicstn-test.com.php53-10.dfw1-1.websitetestlink.com/" target="_blank" rel="nofollow"class="element-item build fluid development">
+	    
+		<a href="http://www.specialolympicstn.org/" target="_blank" rel="nofollow"class="element-item build fluid development">
 	    	<img src="/_img/special-olympics.jpg" alt="Special Olympics TN website">
 	    </a>
---><!--element-->	    
+		<!--element-->	    
 
 	    <a href="http://www.tnrmt.com/" target="_blank" rel="nofollow"class="element-item build fluid production">
 	    	<img src="/_img/tennessee-risk-management-trust.jpg" alt="Tennessee Risk Management Trust website">
