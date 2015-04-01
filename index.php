@@ -40,6 +40,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/angry-eagle-lodge-and-outfitters.jpg" alt="Angry Eagle Lodge & Outfitters website">
 	    </a><!--element-->
 
+	    <a href="http://www.tell-talemedia.com" target="_blank" rel="nofollow"class="element-item build fluid production">
+	    	<img src="/_img/tell-tale-media.jpg" alt="tell-tale Media website">
+	    </a><!--element-->	    
+
 	    <a href="http://www.2dimes.com/" target="_blank" rel="nofollow"class="element-item build fluid production">
 	    	<img src="/_img/paradigm.jpg" alt="Paradigm website">
 	    </a><!--element-->	    
