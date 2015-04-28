@@ -32,7 +32,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
  	<div id="container" class="clearfix">
     
-	    <a href="http://www.angryeagle.com" target="_blank" rel="nofollow"class="element-item design development fluid">
+	    <a href="http://www.angryeagle.com" target="_blank" rel="nofollow"class="element-item design development build fluid">
 	    	<img src="/_img/angry-eagle-lodge-and-outfitters.jpg" alt="Angry Eagle Lodge & Outfitters website">
 	    </a><!--element-->
 
@@ -40,7 +40,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/knockout-fitness.jpg" alt="Knockout Fitness website">
 	    </a><!--element-->	    
 
-	    <a href="http://www.dykesfoodservice.com" target="_blank" rel="nofollow"class="element-item development fluid">
+	    <a href="http://www.dykesfoodservice.com" target="_blank" rel="nofollow"class="element-item development build fluid">
 	    	<img src="/_img/dykes-foodservice.jpg" alt="Dykes Foodservice website">
 	    </a><!--element-->
 
