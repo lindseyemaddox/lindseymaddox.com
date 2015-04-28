@@ -32,12 +32,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
  	<div id="container" class="clearfix">
     
+	    <a href="http://www.angryeagle.com" target="_blank" rel="nofollow"class="element-item design development fluid">
+	    	<img src="/_img/angry-eagle-lodge-and-outfitters.jpg" alt="Angry Eagle Lodge & Outfitters website">
+	    </a><!--element-->
+
 	    <a href="http://www.knockoutfitness.net/" target="_blank" rel="nofollow"class="element-item design build fluid production">
 	    	<img src="/_img/knockout-fitness.jpg" alt="Knockout Fitness website">
 	    </a><!--element-->	    
 
-	    <a href="http://www.angryeagle.com" target="_blank" rel="nofollow"class="element-item design development">
-	    	<img src="/_img/angry-eagle-lodge-and-outfitters.jpg" alt="Angry Eagle Lodge & Outfitters website">
+	    <a href="http://www.dykesfoodservice.com" target="_blank" rel="nofollow"class="element-item development fluid">
+	    	<img src="/_img/dykes-foodservice.jpg" alt="Dykes Foodservice website">
 	    </a><!--element-->
 
 	    <a href="http://www.tell-talemedia.com" target="_blank" rel="nofollow"class="element-item build fluid production">
@@ -84,7 +88,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    </a>
 		<!--element-->	    
 
-	    <a href="http://www.tnrmt.com/" target="_blank" rel="nofollow"class="element-item build fluid production">
+	    <a href="http://www.tnrmt.com/" target="_blank" rel="nofollow"class="element-item build fluid production design">
 	    	<img src="/_img/tennessee-risk-management-trust.jpg" alt="Tennessee Risk Management Trust website">
 	    </a><!--element-->	    
 
