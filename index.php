@@ -25,13 +25,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <li><a href="#filter" data-option-value=".breakpoint">Breakpoint Responsive</a></li>
         <li><a href="#filter" data-option-value=".build">Build</a></li>
         <li><a href="#filter" data-option-value=".design">Design</a></li>
-        <li><a href="#filter" data-option-value=".maintenance">Maintenance</a></li>
       </ul>
 
   </div> <!-- #options -->
 
  	<div id="container" class="clearfix">
     
+	    <a href="http://www.stuntdoublecreative.com" target="_blank" rel="nofollow"class="element-item development build fluid">
+	    	<img src="/_img/stunt-double-creative.jpg" alt="Stunt Double Creative website">
+	    </a><!--element-->
+
 	    <a href="http://www.angryeagle.com" target="_blank" rel="nofollow"class="element-item design development build fluid">
 	    	<img src="/_img/angry-eagle-lodge-and-outfitters.jpg" alt="Angry Eagle Lodge & Outfitters website">
 	    </a><!--element-->
@@ -60,11 +63,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/connico.jpg" alt="Connico website">
 	    </a><!--element-->
 
-	    <!--
-<a href="http://www.tsumensbasketball.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" rel="nofollow"class="element-item build fluid development">
+		<a href="http://www.tsumensbasketball.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" rel="nofollow"class="element-item build fluid development">
 	    	<img src="/_img/tsu-basketball.jpg" alt="TSU Men's Basketball website">
 	    </a>
---><!--element-->
+		<!--element-->
 
 	    <a href="http://www.greystonebd.com/" target="_blank" rel="nofollow"class="element-item fluid build production">
 	    	<img src="/_img/greystone.jpg" alt="Greystone website">
@@ -82,7 +84,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/shared-hospital.jpg" alt="Shared Hospital Services website">
 	    </a><!--element-->	    
 
-	    
 		<a href="http://www.specialolympicstn.org/" target="_blank" rel="nofollow"class="element-item build fluid development">
 	    	<img src="/_img/special-olympics.jpg" alt="Special Olympics TN website">
 	    </a>
@@ -100,7 +101,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/the-smart-pops.jpg" alt="Smart Pops website">
 	    </a><!--element-->	    
 
-	    <a href="http://newtractorpackages.com/" target="_blank" rel="nofollow"class="element-item fluid design build production">
+	    <a href="#" target="_blank" rel="nofollow"class="element-item fluid design build production">
 	    	<img src="/_img/cirrus-outdoor-power-equipment.jpg" alt="Cirrus Outdoor Power Equipment website">
 	    </a><!--element-->
 
@@ -124,23 +125,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/coffee-lunch.jpg" alt="Coffee, Lunch. website">
 	    </a><!--element-->
 
-	    <a href="http://www.connecthearing.com/" target="_blank" rel="nofollow"class="element-item production breakpoint maintenance">
-	    	<img src="/_img/connect-hearing.jpg" alt="Connect Hearing website">
-	    </a><!--element-->
-
 	    <a href="http://www.covenantcap.com/" target="_blank" rel="nofollow"class="element-item breakpoint build production">
 	    	<img src="/_img/covenant-capital-management.jpg" alt="Covenant Capital Management website">
 	    </a><!--element-->
 
-	    <!--
-<a href="http://www.greenapplestrategy-test.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" rel="nofollow"class="element-item fluid build development">
+		<a href="http://www.greenapplestrategy-test.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" rel="nofollow"class="element-item fluid build development">
 	    	<img src="/_img/green-apple-strategy.jpg" alt="Green Apple Strategy website">
 	    </a>
---><!--element-->
-
-	    <a href="http://www.hearingplanet.com/" target="_blank" rel="nofollow"class="element-item maintenance breakpoint production">
-	    	<img src="/_img/hearing-planet.jpg" alt="Hearing Planet website">
-	    </a><!--element-->
+		<!--element-->
 
 	    <a href="http://www.johnrayfortennessee.com/" target="_blank" rel="nofollow"class="element-item build fluid production">
 	    	<img src="/_img/john-ray-clemmons.jpg" alt="John Ray Clemmons website">

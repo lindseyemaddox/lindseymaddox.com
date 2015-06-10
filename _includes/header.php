@@ -12,7 +12,7 @@
 
 		<h1><a href="/"><span itemprop="name" id="fittext1">Lindsey Maddox</span></a></h1>
 		<h2><span itemprop="jobTitle" id="fittext2">Makes Websites</span></h2>
-		<span class="bebas"><a href="/">Portfolio</a> | <a href="/process">Process</a> | <a href="/contact" itemprop="email">Contact</a></span>
+<!-- 		<span class="bebas"><a href="/">Portfolio</a> | <a href="/process">Process</a> | <a href="/contact" itemprop="email">Contact</a></span> -->
 
 	</div>
 	
