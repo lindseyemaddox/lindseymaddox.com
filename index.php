@@ -31,8 +31,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
  	<div id="container" class="clearfix">
     
-	    <a href="http://www.stuntdoublecreative.com" target="_blank" rel="nofollow"class="element-item development build fluid">
-	    	<img src="/_img/stunt-double-creative.jpg" alt="Stunt Double Creative website">
+	    <a class="element-item design">
+	    	<img src="/_img/inquicker.jpg" alt="InQuicker, LLC website">
 	    </a><!--element-->
 
 	    <a href="http://www.angryeagle.com" target="_blank" rel="nofollow"class="element-item design development build fluid">
@@ -51,6 +51,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/tell-tale-media.jpg" alt="tell-tale Media website">
 	    </a><!--element-->	    
 
+	    <a href="http://www.stuntdoublecreative.com" target="_blank" rel="nofollow"class="element-item development build fluid">
+	    	<img src="/_img/stunt-double-creative.jpg" alt="Stunt Double Creative website">
+	    </a><!--element-->
+
 	    <a href="http://www.2dimes.com/" target="_blank" rel="nofollow"class="element-item build fluid production">
 	    	<img src="/_img/paradigm.jpg" alt="Paradigm website">
 	    </a><!--element-->	    
@@ -65,11 +69,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<a href="http://www.tsumensbasketball.com.php53-14.dfw1-1.websitetestlink.com/" target="_blank" rel="nofollow"class="element-item build fluid development">
 	    	<img src="/_img/tsu-basketball.jpg" alt="TSU Men's Basketball website">
-	    </a>
-		<!--element-->
+	    </a><!--element-->
 
 	    <a href="http://www.greystonebd.com/" target="_blank" rel="nofollow"class="element-item fluid build production">
 	    	<img src="/_img/greystone.jpg" alt="Greystone website">
+	    </a><!--element-->
+
+	    <a class="element-item design">
+	    	<img src="/_img/faster-fitness.jpg" alt="Faster Fitness website">
 	    </a><!--element-->
 
 	    <a href="http://neighborhoodhealthtn.org" target="_blank" rel="nofollow"class="element-item build fluid production">
@@ -86,8 +93,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<a href="http://www.specialolympicstn.org/" target="_blank" rel="nofollow"class="element-item build fluid development">
 	    	<img src="/_img/special-olympics.jpg" alt="Special Olympics TN website">
-	    </a>
-		<!--element-->	    
+	    </a><!--element-->	    
 
 	    <a href="http://www.tnrmt.com/" target="_blank" rel="nofollow"class="element-item build fluid production design">
 	    	<img src="/_img/tennessee-risk-management-trust.jpg" alt="Tennessee Risk Management Trust website">
@@ -101,7 +107,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    	<img src="/_img/the-smart-pops.jpg" alt="Smart Pops website">
 	    </a><!--element-->	    
 
-	    <a href="#" target="_blank" rel="nofollow"class="element-item fluid design build production">
+	    <a class="element-item fluid design build production">
 	    	<img src="/_img/cirrus-outdoor-power-equipment.jpg" alt="Cirrus Outdoor Power Equipment website">
 	    </a><!--element-->
 
